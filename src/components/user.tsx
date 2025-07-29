@@ -8,7 +8,7 @@ function user({ texto, image }: props) {
   return (
     <div className="user">
       <img className="image" src={image} />
-      <p style={{ marginLeft: "10px" }}>{texto}</p>
+      <p className="texto">{texto}</p>
     </div>
   );
 }

@@ -53,26 +53,25 @@ function config({
           <input type="email" name="" id="" />
         </p>
         <br />
+        <h2>Biblioteca</h2>
+        <p>
+          <h3>ordenar por:</h3>
+          <select name="" id="">
+            <option value="">nombre</option>
+            <option value="">fecha</option>
+            <option value="">Numero</option>
+          </select>
+        </p>
+        <br />
+        <p>
+          <h3>Tema</h3>
+          <select name="" id="">
+            <option value="">tropical</option>
+            <option value="">Animation</option>
+            <option value="">Porquesi</option>
+          </select>
+        </p>
       </div>
-
-      <h2>Biblioteca</h2>
-      <p>
-        <h3>ordenar por:</h3>
-        <select name="" id="">
-          <option value="">nombre</option>
-          <option value="">fecha</option>
-          <option value="">Numero</option>
-        </select>
-      </p>
-      <br />
-      <p>
-        <h3>Tema</h3>
-        <select name="" id="">
-          <option value="">tropical</option>
-          <option value="">Animation</option>
-          <option value="">Porquesi</option>
-        </select>
-      </p>
     </div>
   );
 }

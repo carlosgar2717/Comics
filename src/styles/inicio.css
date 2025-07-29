@@ -13,11 +13,10 @@
 }
 
 .biblioteca {
-  width: 100%;
-  height: 100%;
   flex-direction: column;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-left: 30px;
 }
 
 .cart-empty {
@@ -132,16 +131,14 @@
     flex-direction: column;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .biblioteca {
-    width: 100%;
-    height: 100%;
     flex-direction: column;
     display: grid;
-    margin-left: 30px;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
   }
 
   .cart-empty {
@@ -155,11 +152,11 @@
   }
 
   .card1 {
-    left: 10px;
+    left: 0;
     top: 20px;
     position: relative;
-    width: 130px;
-    height: 180px;
+    width: 120px;
+    height: 170px;
     margin: 30px 5px 30px 5px;
   }
   .card1 .face {
