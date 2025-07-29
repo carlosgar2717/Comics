@@ -1,0 +1,223 @@
+.conten {
+  background: url(../../public/Images/texturas-paredes-hormigon-blanco_74190-3476.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: relative;
+  transition: ease-in-out 0.5s;
+}
+.contenCambio {
+  background: url(../../public/Images/textura-pared-negra-fondo-oscuro_910131-1420.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: relative;
+  transition: ease-in-out 0.5s;
+}
+
+.boton {
+  top: 93%;
+  left: 95%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.body {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 1em;
+}
+
+.bodyCambio {
+  position: relative;
+  display: none;
+  width: 90%;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 1em;
+}
+
+.body2 {
+  position: relative;
+  display: grid;
+  width: 90%;
+  height: 100vh;
+  transition: ease-in-out 0.5s;
+  flex-direction: column;
+  grid-template-columns: repeat(4, 1fr);
+  overflow-y: auto;
+}
+
+.body2Cambio {
+  position: relative;
+  display: none;
+  width: 90%;
+  height: 100vh;
+  transition: ease-in-out 0.5s;
+  flex-direction: column;
+  grid-template-columns: repeat(4, 1fr);
+  overflow-y: auto;
+}
+
+.body3 {
+  position: relative;
+  display: flex;
+  width: 90%;
+  height: 100vh;
+  padding-left: 3em;
+  justify-content: center;
+}
+
+.body3Cambio {
+  position: relative;
+  display: none;
+  width: 90%;
+  height: 100vh;
+  padding-left: 3em;
+  justify-content: center;
+}
+
+.user {
+  color: beige;
+  font-size: 20px;
+  top: 2%;
+  left: 80%;
+  position: absolute;
+  width: 320px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: rgba(0, 0, 0, 0.493);
+  border-radius: 10px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  background: white;
+}
+
+/*media query*/
+
+@media (max-width: 600px) {
+  .conten {
+    background: url(../../public/Images/texturas-paredes-hormigon-blanco_74190-3476.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    transition: ease-in-out 0.5s;
+  }
+  .contenCambio {
+    background: url(../../public/Images/textura-pared-negra-fondo-oscuro_910131-1420.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    transition: ease-in-out 0.5s;
+  }
+
+  .boton {
+    top: 93%;
+    left: 85%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .body {
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 1em;
+  }
+
+  .bodyCambio {
+    position: relative;
+    display: none;
+    width: 90%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 1em;
+  }
+
+  .body2 {
+    position: relative;
+    display: grid;
+    width: 90%;
+    height: 100vh;
+    transition: ease-in-out 0.5s;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-y: auto;
+  }
+
+  .body2Cambio {
+    position: relative;
+    display: none;
+    width: 90%;
+    height: 100vh;
+    transition: ease-in-out 0.5s;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-y: auto;
+  }
+
+  .body3 {
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    padding-left: 3em;
+    justify-content: center;
+  }
+
+  .body3Cambio {
+    position: relative;
+    display: none;
+    width: 90%;
+    height: 100vh;
+    padding-left: 3em;
+    justify-content: center;
+  }
+
+  .user {
+    color: beige;
+    font-size: 20px;
+    top: 4%;
+    left: 57%;
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+  }
+
+  .image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    background: white;
+  }
+}

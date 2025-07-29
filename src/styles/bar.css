@@ -1,0 +1,27 @@
+.bar {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.page {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 250px;
+  background-color: yellow;
+}
+
+a {
+  font-family: arcade;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+img {
+  width: 100px;
+}

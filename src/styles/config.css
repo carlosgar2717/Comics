@@ -1,0 +1,89 @@
+.slice {
+  background: white;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding-bottom: 2em;
+}
+
+.sliceCambio {
+  background: black;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-bottom: 2em;
+}
+
+.perfil {
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .slice {
+    background: white;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding-bottom: 2em;
+  }
+
+  .sliceCambio {
+    background: black;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 2em;
+  }
+
+  .perfil {
+    margin-top: 30px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  .input {
+    width: 80%;
+  }
+}
